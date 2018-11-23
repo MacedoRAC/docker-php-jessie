@@ -51,7 +51,8 @@ RUN docker-php-ext-install \
         xml \
         zip \
         soap \
-        intl
+        intl \
+        bcmath
 
 RUN curl -s https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin/ --filename=composer
 
